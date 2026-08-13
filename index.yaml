@@ -180,6 +180,17 @@ entries:
     version: 0.1.0
   cdi:
   - apiVersion: v2
+    appVersion: 1.65.0
+    created: "2026-08-13T11:00:37.534202+03:00"
+    description: A Helm chart for Containerized Data Importer (CDI)
+    digest: d9047873110234de43b279eea4b4b878990cf73483ac2155fde0536dd406970d
+    icon: https://raw.githubusercontent.com/cncf/artwork/main/projects/kubevirt/icon/color/kubevirt-icon-color.svg
+    name: cdi
+    type: application
+    urls:
+    - assets/cdi/cdi-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
     appVersion: 1.64.0
     created: "2026-05-04T10:48:44.536963+03:00"
     description: A Helm chart for Containerized Data Importer (CDI)
@@ -332,6 +343,17 @@ entries:
     - assets/endpoint-copier-operator/endpoint-copier-operator-0.2.0.tgz
     version: 0.2.0
   kubevirt:
+  - apiVersion: v2
+    appVersion: 1.8.3
+    created: "2026-08-13T11:00:00.687779+03:00"
+    description: A Helm chart for KubeVirt
+    digest: 016ebbbfff8824360351dc3485cc772ae955fc6cb54dc9a48f0cbe8eb34db87a
+    icon: https://raw.githubusercontent.com/cncf/artwork/main/projects/kubevirt/icon/color/kubevirt-icon-color.svg
+    name: kubevirt
+    type: application
+    urls:
+    - assets/kubevirt/kubevirt-0.8.0.tgz
+    version: 0.8.0
   - apiVersion: v2
     appVersion: 1.7.0
     created: "2026-05-04T10:33:53.108944+03:00"
